@@ -1,6 +1,20 @@
 *Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!*
 
-# Breakpoints
+# Contents
+
+- [Breakpoints](#breakpoints) 
+- [Code](#code)
+- [Crashes](#crashes)
+- [Search](#search)
+- [Settings](#settings)
+- [Shortcuts](#shortcuts)
+- [Simulator](#simulator)
+- [Testing](#testing)
+- [Usability](#usability)
+- [User Defaults](#user-defaults)
+- [Xcode-select](#xcode-select)
+
+# [Breakpoints](#breakpoints)
 
 ### Use breakpoints as "bookmarks"
 
@@ -14,7 +28,7 @@ Use `Cmd+\` to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# Code
+# [Code](#code)
 
 ### Generating class initializers
 
@@ -34,7 +48,7 @@ Go to the Editor menu and choose Fix All Issues to apply fix-its all at once.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# Crashes
+# [Crashes](#crashes)
 
 ### Viewing .crash files
 
@@ -42,12 +56,12 @@ In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-clic
 
 Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
 
-# Interface Builder
+# [Interface Builder](#interface-builder)
 
 - [Xcode Interface Builder Tips](https://useyourloaf.com/blog/xcode-interface-builder-tips/), Keith Harrison
 - [More Interface Builder Tips And Tricks](https://useyourloaf.com/blog/more-interface-builder-tips-and-tricks/), Keith Harrison
 
-# Search
+# [Search](#search)
 
 ### Deleting search results
 
@@ -55,7 +69,7 @@ When you search using Xcode’s find navigator, you can click on individual resu
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# Settings
+# [Settings](#settings)
 
 ### Improving the assistant editor
 
@@ -71,7 +85,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-i
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-debugging-behavior-new-tab/)
 
-# Shortcuts
+# [Shortcuts](#shortcuts)
 
 ### Jump to a specific line
 
@@ -93,7 +107,7 @@ Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless s
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# Simulator
+# [Simulator](#simulator)
 
 ### Tiling the simulator
 
@@ -107,7 +121,7 @@ Clean up and configure Simulator status bars using `simctl status_bar`, automate
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-automating-perfect-status-bar-overrides-for-ios-simulators/)
 
-# Testing
+# [Testing](#testing)
 
 ### Re-run your last test
 
@@ -133,7 +147,7 @@ Make a new StoreKit Config File, and add your IAP. Now go to the Product menu, h
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# Usability
+# [Usability](#usability)
 
 ### Expanding autocomplete
 
@@ -147,7 +161,7 @@ Press `Ctrl+Cmd+Up` to display a generated interface, showing properties, functi
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-# User Defaults
+# [User Defaults](#user-defaults)
 
 ### Make Xcode's Assistant aware of your ViewModels, Views, etc:
 
@@ -159,7 +173,7 @@ You can check the current value of this default using `defaults read com.apple.d
 
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
-# Xcode-select
+# [Xcode-select](#xcode-select)
 
 ### Quickly switching between Xcodes
 
