@@ -42,6 +42,11 @@ In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-clic
 
 Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
 
+# Interface Builder
+
+- [Xcode Interface Builder Tips](https://useyourloaf.com/blog/xcode-interface-builder-tips/), Keith Harrison
+- [More Interface Builder Tips And Tricks](https://useyourloaf.com/blog/more-interface-builder-tips-and-tricks/), Keith Harrison
+
 # Search
 
 ### Deleting search results
