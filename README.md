@@ -73,6 +73,10 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-d
 
 # Shortcuts
 
+### Jump to a specific line
+
+Open the file you want. Press `Cmd+L`, type a line number and Xcode will jump directly to that line.
+
 ### Reindenting/Formatting code
 
 Press `Ctrl+I` to apply Xcode's indentation and formatting.
