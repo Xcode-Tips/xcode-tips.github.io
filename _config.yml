@@ -1,1 +1,10 @@
 theme: jekyll-theme-hacker
+
+title: 'Xcode Tips 💡'
+
+description: 'The more you know... 😎'
+
+show_downloads: false
+
+plugins:
+  - jekyll-sitemap
