@@ -102,6 +102,8 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2021/03/17/xcode-ui-te
 defaults write com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"
 ```
 
+You can check the current value of this default using `defaults read com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes`.
+
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
 # Xcode-select
