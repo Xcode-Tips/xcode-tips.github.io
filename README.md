@@ -1,6 +1,4 @@
-# Xcode Tips 💡
-
-The more you know... 😎
+Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!
 
 ## Breakpoints
 
