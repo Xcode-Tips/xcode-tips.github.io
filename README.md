@@ -1,2 +1,3 @@
-# xcode-tips.github.io
-Website for Xcode Tips
+# Xcode Tips 💡
+
+The more you know... 😎
