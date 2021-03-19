@@ -1,4 +1,4 @@
-Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!
+*Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!*
 
 # Breakpoints
 
@@ -71,6 +71,24 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-i
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-debugging-behavior-new-tab/)
 
+# Shortcuts
+
+### Reindenting/Formatting code
+
+Press `Ctrl+I` to apply Xcode's indentation and formatting.
+
+### Adding comments quickly
+
+Use `Cmd+/` to toggle comments for the current line or selection. Use `Option+Cmd+/`, pressed directly before a method to have Xcode generate a documentation comment.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+###  Remapping unhelpful keys
+
+Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless shortcuts (`Shift+Cmd+P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `Cmd+P` to resuming SwiftUI's preview.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
 # Simulator
 
 ### Tiling the simulator
@@ -87,6 +105,12 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 # Testing
 
+### Re-run your last test
+
+Use `Ctrl+Opt+Cmd+G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
 ### Randomizing test order
 
 Go to the Product menu, hold down Option, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
@@ -98,6 +122,26 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 You can disable or speed-up animations, and increase timeouts for `waitForExistence()`.
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2021/03/17/xcode-ui-testing-reliability-tips/)
+
+### Testing in-app purchases
+
+Make a new StoreKit Config File, and add your IAP. Now go to the Product menu, hold down Option, and click Run. From the Options tab of the window, change StoreKit Config, and now you'll use the test IAP.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+# Usability
+
+### Expanding autocomplete
+
+You can grab the edge of the autocomplete popup and drag it as wide as you want!
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+### Generating an interface file
+
+Press `Ctrl+Cmd+Up` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 # User Defaults
 
