@@ -1,6 +1,6 @@
 Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!
 
-## Breakpoints
+# Breakpoints
 
 Use breakpoints as "bookmarks".
 
@@ -8,7 +8,7 @@ Use breakpoints as "bookmarks".
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/01/21/xcode-tip-breakpoints-as-bookmarks/)
 
-## Code
+# Code
 
 #### Generating class initializers
 
@@ -28,7 +28,7 @@ Go to the Editor menu and choose Fix All Issues to apply fix-its all at once.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
-## Crashes
+# Crashes
 
 #### Viewing .crash files
 
@@ -36,7 +36,7 @@ In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-clic
 
 Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
 
-## Settings
+# Settings
 
 #### Improving the assistant editor
 
@@ -52,7 +52,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-i
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-debugging-behavior-new-tab/)
 
-## Simulator
+# Simulator
 
 #### Status bars
 
@@ -60,7 +60,7 @@ Clean up and configure Simulator status bars using `simctl status_bar`, automate
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-automating-perfect-status-bar-overrides-for-ios-simulators/)
 
-## UI Testing
+# Testing
 
 #### Improving UI test reliability
 
@@ -68,7 +68,7 @@ You can disable or speed-up animations, and increase timeouts for `waitForExiste
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2021/03/17/xcode-ui-testing-reliability-tips/)
 
-## User Defaults
+# User Defaults
 
 #### Make Xcode's Assistant aware of your ViewModels, Views, etc:
 
@@ -78,7 +78,7 @@ defaults write com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "V
 
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
-## Xcode-select
+# Xcode-select
 
 #### Quickly switching between Xcodes
 
