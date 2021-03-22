@@ -1,10 +1,16 @@
-*Have a cool tip? Send us [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!*
+# About
+
+Folks in the Apple developer community are always sharing great Xcode tips &mdash; usually via Twitter or blog posts. Wouldn't it be nice if we collected them all in a single place to share? The goal of this project is to host all of these Xcode tips in a single place, and make it [easy for anyone to contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/.github/CONTRIBUTING.md).
+
+*Have a cool tip? Send [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!*
 
 # Contents
 
 - [Breakpoints](#breakpoints) 
 - [Code](#code)
 - [Crashes](#crashes)
+- [Debugging](#debugging)
+- [Refactoring](#refactoring)
 - [Search](#search)
 - [Settings](#settings)
 - [Shortcuts](#shortcuts)
@@ -13,6 +19,8 @@
 - [Usability](#usability)
 - [User Defaults](#user-defaults)
 - [Xcode-select](#xcode-select)
+
+> 💡 **Tip:** we recommend following the "source" links for each tip to learn even more.
 
 # [Breakpoints](#breakpoints)
 
@@ -48,6 +56,20 @@ Go to the Editor menu and choose Fix All Issues to apply fix-its all at once.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+# [Debugging](#debugging)
+
+### `NSDoubleLocalizedStrings` and Friends
+
+> The `NSDoubleLocalizedStrings` user default is a reasonably well-known and officially documented localization debugging aide. It repeats the text of each localized string, making it double-length so that you can test whether your layout still works.
+>
+> Another longstanding one is `NSShowNonLocalizedStrings`, which logs to Console when a string can’t be found.
+>
+> Interface Builder also lets you preview views using an “Accented Pseudolanguage” and a “Bounded String Pseudolanguage.” These correspond to the `NSAccentuateLocalizedStrings` and `NSSurroundLocalizedStrings` user defaults.
+>
+> Finally, there are `NSForceRightToLeftLocalizedStrings` and `AppleTextDirection` to enable the “Right to Left Pseudolanguage.” This lets you use test right-to-left layout (e.g. for Arabic) using strings from your development language.
+
+Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrings-and-friends/)
+
 # [Crashes](#crashes)
 
 ### Viewing .crash files
@@ -61,6 +83,18 @@ Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xc
 - [Xcode Interface Builder Tips](https://useyourloaf.com/blog/xcode-interface-builder-tips/), Keith Harrison
 - [More Interface Builder Tips And Tricks](https://useyourloaf.com/blog/more-interface-builder-tips-and-tricks/), Keith Harrison
 
+# [Refactoring](#refactoring)
+
+### Faster Xcode Rename Refactoring
+
+If you use the rename refactoring in Xcode a lot, you can save some time by skipping the code folding animation:
+
+```bash
+defaults write com.apple.dt.Xcode CodeFoldingAnimationSpeed -int 0
+```
+
+Source: [Daniel Martín](https://twitter.com/dmartincy/status/1173289543124029440) (via [Michael Tsai](https://mjtsai.com/blog/2019/09/16/faster-xcode-rename-refactoring/))
+
 # [Search](#search)
 
 ### Deleting search results
@@ -70,6 +104,19 @@ When you search using Xcode’s find navigator, you can click on individual resu
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 # [Settings](#settings)
+
+### Customizing the file header comment and other text macros
+
+Xcode allows you to customize the file header and other so-called text macros using a plist file. 
+
+1. Create a property list file named `IDETemplateMacros.plist`.
+2. For every text macro you want to customize, add a new key to the plist’s dictionary.
+3. Copy the file to one of the following locations.
+    1. `<ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist`
+    2. `<WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist`
+    3. ...
+
+Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 
 ### Improving the assistant editor
 
