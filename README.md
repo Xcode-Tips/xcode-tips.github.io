@@ -210,7 +210,7 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 # [User Defaults](#user-defaults)
 
-### Make Xcode's Assistant aware of your ViewModels, Views, etc:
+### Make Xcode's Assistant aware of your ViewModels, Views, etc
 
 ```bash
 defaults write com.apple.dt.Xcode IDEAdditionalCounterpartSuffixes -array-add "ViewModel" "View" "Screen"
@@ -226,6 +226,16 @@ This is useful if you have a project that crashes Xcode on launch, if you want t
 
 ```bash
 defaults write com.apple.dt.Xcode ApplePersistenceIgnoreState -bool YES
+```
+
+Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-defaults)
+
+### Show project build times in the activity viewer
+
+This shows the build time duration directly in the activity viewer every time you build.
+
+```bash
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 ```
 
 Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-defaults)
