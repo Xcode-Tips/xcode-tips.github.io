@@ -220,6 +220,16 @@ You can check the current value of this default using `defaults read com.apple.d
 
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
+### Prevent restoring the last open project
+
+This is useful if you have a project that crashes Xcode on launch, if you want to run multiple Xcode versions for different projects, or if you always want to choose the project to open.
+
+```bash
+defaults write com.apple.dt.Xcode ApplePersistenceIgnoreState -bool YES
+```
+
+Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-defaults)
+
 # [Xcode Versions](#xcode-versions)
 
 ### Quickly switching between Xcodes
