@@ -112,8 +112,8 @@ Xcode allows you to customize the file header and other so-called text macros us
 1. Create a property list file named `IDETemplateMacros.plist`.
 2. For every text macro you want to customize, add a new key to the plist’s dictionary.
 3. Copy the file to one of the following locations.
-    1. `<ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist`
-    2. `<WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist`
+    1. `<Name>.xcodeproj/xcshareddata/`
+    2. `<Name>.xcworkspace/xcshareddata/`
     3. ...
 
 Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
