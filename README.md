@@ -18,7 +18,7 @@ Folks in the Apple developer community are always sharing great Xcode tips &mdas
 - [Testing](#testing)
 - [Usability](#usability)
 - [User Defaults](#user-defaults)
-- [Xcode-select](#xcode-select)
+- [Xcode Versions](#xcode-versions)
 
 > 💡 **Tip:** we recommend following the "source" links for each tip to learn even more.
 
@@ -220,10 +220,16 @@ You can check the current value of this default using `defaults read com.apple.d
 
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
-# [Xcode-select](#xcode-select)
+# [Xcode Versions](#xcode-versions)
 
 ### Quickly switching between Xcodes
 
 > Using plain xcode-select is slow because you have to provide the path to the Xcode you want to select each time. I wrote a custom shell command to switch between Xcodes more quickly.
  
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/07/07/quickly-switching-between-xcodes/)
+
+### Install, manage and switch between different Xcode versions
+
+An easy-to-use command line tool to install and uninstall different Xcode versions on your machine. Xcode versions are installed side-by-side with the version in their name and makes downloading/installing them incredibly easy. 
+
+Source: [xcinfo](https://github.com/xcodereleases/xcinfo)
