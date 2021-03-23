@@ -220,6 +220,16 @@ You can check the current value of this default using `defaults read com.apple.d
 
 Source: [Peter Friese](https://twitter.com/peterfriese/status/1364544309878534144)
 
+### Show project build times in the activity viewer
+
+This shows the build time duration directly in the activity viewer every time you build.
+
+```bash
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+```
+
+Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-defaults)
+
 # [Xcode-select](#xcode-select)
 
 ### Quickly switching between Xcodes
