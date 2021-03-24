@@ -1,8 +1,8 @@
+**Have a cool tip to share?** Send [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io/pulls) or [open an issue](https://github.com/Xcode-Tips/xcode-tips.github.io/issues)!
+
 # About
 
 Folks in the Apple developer community are always sharing great Xcode tips &mdash; usually via Twitter or blog posts. Wouldn't it be nice if we collected them all in a single place to share? The goal of this project is to host all of these Xcode tips in a single place, and make it [easy for anyone to contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/.github/CONTRIBUTING.md).
-
-*Have a cool tip? Send [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io)!*
 
 # Contents
 
