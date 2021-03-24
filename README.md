@@ -148,6 +148,18 @@ Use `Cmd+/` to toggle comments for the current line or selection. Use `Option+Cm
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+### Jump to file in source navigator
+
+Press `Cmd+Shift+J` to quickly jump to the current open file in the navigator to easily see and select related files.
+
+Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
+
+### Open the jump bar
+
+Press `Ctrl+6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
+
+Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
+
 ###  Remapping unhelpful keys
 
 Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless shortcuts (`Shift+Cmd+P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `Cmd+P` to resuming SwiftUI's preview.
