@@ -37,6 +37,13 @@ Use `Cmd+\` to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+### Play sound files in breakpoints
+
+> Audible Xcode breakpoints allow a sound effect to be played while continuing the executable without interruptions. This can be a really useful debugging tool. Custom Xcode breakpoint sound files can be found on GitHub.
+
+Example sounds: [Xcode Breakpoint Sounds](https://github.com/matthewreagan/Xcode-Breakpoint-Sounds)
+Source: [Matt Reagan](http://mattreagandev.com/?article=20170306)
+
 # [Build Times](#build-times)
 
 ### Fix slow codesigning
