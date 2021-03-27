@@ -193,6 +193,22 @@ Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless s
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+###  Increase or reducing  the font size
+ 
+ Press `Cmd+'+'` for increasing the font size of the source code and press `Cmd+'-'` for reducing the font size.
+ 
+ ###  Move cursor to the top or bottom of the file
+ 
+ Press `Cmd+Up Arrow` to move to the top of the file. `Cmd+ Down Arrow` will take you to the bottom of the file.
+ 
+ ###  Open and close Xcode debug area
+ 
+ Press `Cmd+Shift+Y` to open and close the debug area.
+ 
+ ###  Switch between multiple Xcode Projects
+ 
+ Press `Cmd+~` to switch between multiple Xcode projects.
+
 # [Simulator](#simulator)
 
 ### Tiling the simulator
