@@ -79,7 +79,8 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Apply all fix-its
 
-Go to the Editor menu and choose Fix All Issues to apply fix-its all at once.
+Go to the Editor menu and choose Fix All Issues to apply fix-its all at once. 
+**Keyboard shortcut**: `⌃⌥⌘F`
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
