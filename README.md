@@ -195,11 +195,11 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ###  Increase or reducing  the font size
  
- Press `Cmd+'+'` for increasing the font size of the source code and press `Cmd+'-'` for reducing the font size.
+ Press `Cmd+'+'` for increasing the font size of the source code and press `Cmd+'-'` for reducing the font size. Hold command key and press `+`  for increasing font size and press `-`  for reducing font size.
  
  ###  Move cursor to the top or bottom of the file
  
- Press `Cmd+Up Arrow` to move to the top of the file. `Cmd+ Down Arrow` will take you to the bottom of the file.
+ Press `Cmd+ Up Arrow` to move to the top of the file. `Cmd+ Down Arrow` will take you to the bottom of the file.
  
  ###  Open and close Xcode debug area
  
