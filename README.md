@@ -199,11 +199,23 @@ Press `Ctrl+6` to open the symbol jump bar in Xcode. Now start typing. Try it, j
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
-###  Remapping unhelpful keys
+### Remapping unhelpful keys
 
 Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless shortcuts (`Shift+Cmd+P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `Cmd+P` to resuming SwiftUI's preview.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+### Increase or decrease editor font size
+
+Press `cmd +` to increase and `cmd -` to decrease.
+
+### Move cursor to the top or bottom of the file
+
+Press `cmd UpArrow` to move to the top of the file. Press `cmd DownArrow` to move to the bottom of the file.
+
+### Show and hide debug area
+
+Press `cmd shift Y` to open and close the debug area.
 
 # [Simulator](#simulator)
 
