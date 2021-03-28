@@ -11,7 +11,6 @@ Folks in the Apple developer community are always sharing great Xcode tips &mdas
 - [Code](#code)
 - [Crashes](#crashes)
 - [Debugging](#debugging)
-- [Interface Builder](#interface-builder)
 - [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Refactoring](#refactoring)
 - [Search](#search)
@@ -34,7 +33,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/01/21/xcode-tip-b
 
 ### Quickly toggling breakpoints
 
-Use `Cmd+\` to toggle a breakpoint on the current line.
+Use `cmd \` to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -43,6 +42,18 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 > Audible Xcode breakpoints allow a sound effect to be played while continuing the executable without interruptions. This can be a really useful debugging tool. Custom Xcode breakpoint sound files can be found on GitHub at [Xcode Breakpoint Sounds](https://github.com/matthewreagan/Xcode-Breakpoint-Sounds).
 
 Source: [Matt Reagan](http://mattreagandev.com/?article=20170306)
+
+### Automate user actions with LLDB expressions
+
+When developing a view that requires app navigation to reach, you can use breakpoints to speed up iterations by simulating user actions, instead of modifying or hacking code that you might forget to remove later. Using breakpoints this way instead of adding temporary debug or development code eliminates the possibility of shipping that code by accident.
+
+For example, on a login screen, you can set a breakpoint on `viewDidLoad()`, or `view{Will|Did}Appear()`, then edit the breakpoint to add a Debugger Command action to invoke other methods in the view controller, like a `loginSuccess()` method. Then, set the breakpoint to automatically continue after evaluating the actions. This essentially bypasses login, but only when running the app through Xcode, and only when that breakpoint is enabled.
+
+Another use case: you can pre-populate text fields, make text fields first responders, and change mutable variables at runtime. Once set, enable or disable these breakpoints to simulate different user interaction flows.
+
+Example debugger commands: `expr loginSuccess()`, `expr nameTextField?.text = "Erwin Maza"`, etc.
+
+Source: [Erwin Mazariegos](https://github.com/erwinmaza)
 
 # [Build Times](#build-times)
 
@@ -169,7 +180,7 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Customizing the file header comment and other text macros
 
-Xcode allows you to customize the file header and other so-called text macros using a plist file. 
+Xcode allows you to customize the file header and other so-called text macros using a plist file.
 
 1. Create a property list file named `IDETemplateMacros.plist`.
 2. For every text macro you want to customize, add a new key to the plist’s dictionary.
@@ -183,10 +194,19 @@ Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 ### Improving the assistant editor
 
 1. Set “Uses Focused Editor” in the Navigation preferences
-1. `cmd-J` to switch between panes or open new ones
-1. `cmd-shift-O` to open files in the currently focused pane
+1. `cmd J` to switch between panes or open new ones
+1. `cmd shift O` to open files in the currently focused pane
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-improving-assistant-editor/)
+
+### Navigation using the assistant editor
+
+The assistant editor is very useful for navigating around while remaining at your original position:
+
+- Use `cmd option ,` to open the current location in the neighbouring editor
+- Hold `cmd ctrl option` and click on any method to jump to that method in the neighbouring editor (`cmd ctrl` opens in the current editor)
+- `cmd ctrl UpArrow` to switch between associated files, and `cmd ctrl option UpArrow` to do so using the neighbouring editor
+- `cmd ctrl LeftArrow` and `cmd ctrl RightArrow` to move back and forward through navigation history, add `option` for their neighbouring editor counterparts
 
 ### Using behaviors to improve debugging
 
@@ -212,13 +232,13 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 ### Re-run your last test
 
-Use `Ctrl+Opt+Cmd+G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
+Use `cmd ctrl option G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Randomizing test order
 
-Go to the Product menu, hold down Option, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
+Go to the Product menu, hold down `option`, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -239,12 +259,6 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 ### Expanding autocomplete
 
 You can grab the edge of the autocomplete popup and drag it as wide as you want!
-
-Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
-
-### Generating an interface file
-
-Press `Ctrl+Cmd+Up` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -291,11 +305,11 @@ Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-def
 ### Quickly switching between Xcodes
 
 > Using plain xcode-select is slow because you have to provide the path to the Xcode you want to select each time. I wrote a custom shell command to switch between Xcodes more quickly.
- 
+
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/07/07/quickly-switching-between-xcodes/)
 
 ### Install, manage and switch between different Xcode versions
 
-An easy-to-use command line tool to install and uninstall different Xcode versions on your machine. Xcode versions are installed side-by-side with the version in their name and makes downloading/installing them incredibly easy. 
+An easy-to-use command line tool to install and uninstall different Xcode versions on your machine. Xcode versions are installed side-by-side with the version in their name and makes downloading/installing them incredibly easy.
 
 Source: [xcinfo](https://github.com/xcodereleases/xcinfo)
