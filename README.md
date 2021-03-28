@@ -165,6 +165,15 @@ Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-improving-assistant-editor/)
 
+### Navigation using the assistant editor
+
+The assistant editor is very useful for navigating around while remaining at your original position:
+
+- Use `cmd option ,` to open the current location in the neighbouring editor
+- Hold `cmd ctrl option` and click on any method to jump to that method in the neighbouring editor (`cmd ctrl` opens in the current editor)
+- `cmd ctrl UpArrow` to switch between associated files, and `cmd ctrl option UpArrow` to do so using the neighbouring editor
+- `cmd ctrl LeftArrow` and `cmd ctrl RightArrow` to move back and forward through navigation history, add `option` for their neighbouring editor counterparts
+
 ### Using behaviors to improve debugging
 
 > In Xcode’s preferences, go to the Behaviors tab. Navigate to the ‘Running’ section and click ‘Pauses’. Here you can instruct Xcode to open a new tab by checking the box for ‘Show tab named’ and giving it a name. By default, showing the ‘Debug Navigator’ should be enabled. Next, I like to show the debugger with the ‘Variables & Console View’, as well as hide the Utilities sidebar on the right.
