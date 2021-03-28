@@ -12,10 +12,10 @@ Folks in the Apple developer community are always sharing great Xcode tips &mdas
 - [Crashes](#crashes)
 - [Debugging](#debugging)
 - [Interface Builder](#interface-builder)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
 - [Refactoring](#refactoring)
 - [Search](#search)
 - [Settings](#settings)
-- [Shortcuts](#shortcuts)
 - [Simulator](#simulator)
 - [Testing](#testing)
 - [Usability](#usability)
@@ -96,6 +96,14 @@ Go to the Editor menu and choose Fix All Issues to apply fix-its all at once.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+# [Crashes](#crashes)
+
+### Viewing .crash files
+
+In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-click on any row and choose Show in Finder. This will reveal a `.crashpoint` file — do a "Show Package Contents" and then dig in further. You will find `.crash` files with the full crash logs, which provide a lot more info than what you see in Organizer.
+
+Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
+
 # [Debugging](#debugging)
 
 ### `NSDoubleLocalizedStrings` and Friends
@@ -110,18 +118,62 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrings-and-friends/)
 
-# [Crashes](#crashes)
-
-### Viewing .crash files
-
-In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-click on any row and choose Show in Finder. This will reveal a `.crashpoint` file — do a "Show Package Contents" and then dig in further. You will find `.crash` files with the full crash logs, which provide a lot more info than what you see in Organizer.
-
-Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
-
 # [Interface Builder](#interface-builder)
 
 - [Xcode Interface Builder Tips](https://useyourloaf.com/blog/xcode-interface-builder-tips/), Keith Harrison
 - [More Interface Builder Tips And Tricks](https://useyourloaf.com/blog/more-interface-builder-tips-and-tricks/), Keith Harrison
+
+# [Keyboard Shortcuts](#keyboard-shortcuts)
+
+### Jump to a specific line
+
+Open the file you want. Press `cmd L`, type a line number and Xcode will jump directly to that line.
+
+### Reindenting/Formatting code
+
+Press `ctrl I` to apply Xcode's indentation and formatting.
+
+### Adding comments quickly
+
+Use `cmd /` to toggle comments for the current line or selection. Use `cmd option /`, pressed directly before a method to have Xcode generate a documentation comment.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+### Jump to file in source navigator
+
+Press `cmd shift J` to quickly jump to the current open file in the navigator to easily see and select related files.
+
+Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
+
+### Open the jump bar
+
+Press `ctrl 6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
+
+Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
+
+### Remapping unhelpful keys
+
+Some great shortcuts (e.g. `cmd shift O` for Open Quickly) are next to useless shortcuts (`cmd shift P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `cmd P` to resuming SwiftUI's preview.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
+
+### Increase or decrease editor font size
+
+Press `cmd +` to increase and `cmd -` to decrease.
+
+### Move cursor to the top or bottom of the file
+
+Press `cmd UpArrow` to move to the top of the file. Press `cmd DownArrow` to move to the bottom of the file.
+
+### Show and hide debug area
+
+Press `cmd shift Y` to open and close the debug area.
+
+### Generating an interface file
+
+Press `cmd ctrl UpArrow` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 # [Refactoring](#refactoring)
 
@@ -180,58 +232,6 @@ The assistant editor is very useful for navigating around while remaining at you
 > In Xcode’s preferences, go to the Behaviors tab. Navigate to the ‘Running’ section and click ‘Pauses’. Here you can instruct Xcode to open a new tab by checking the box for ‘Show tab named’ and giving it a name. By default, showing the ‘Debug Navigator’ should be enabled. Next, I like to show the debugger with the ‘Variables & Console View’, as well as hide the Utilities sidebar on the right.
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-debugging-behavior-new-tab/)
-
-# [Shortcuts](#shortcuts)
-
-### Jump to a specific line
-
-Open the file you want. Press `cmd L`, type a line number and Xcode will jump directly to that line.
-
-### Reindenting/Formatting code
-
-Press `ctrl I` to apply Xcode's indentation and formatting.
-
-### Adding comments quickly
-
-Use `cmd /` to toggle comments for the current line or selection. Use `cmd option /`, pressed directly before a method to have Xcode generate a documentation comment.
-
-Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
-
-### Jump to file in source navigator
-
-Press `cmd shift J` to quickly jump to the current open file in the navigator to easily see and select related files.
-
-Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
-
-### Open the jump bar
-
-Press `ctrl 6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
-
-Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
-
-### Remapping unhelpful keys
-
-Some great shortcuts (e.g. `cmd shift O` for Open Quickly) are next to useless shortcuts (`cmd shift P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `cmd P` to resuming SwiftUI's preview.
-
-Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
-
-### Increase or decrease editor font size
-
-Press `cmd +` to increase and `cmd -` to decrease.
-
-### Move cursor to the top or bottom of the file
-
-Press `cmd UpArrow` to move to the top of the file. Press `cmd DownArrow` to move to the bottom of the file.
-
-### Show and hide debug area
-
-Press `cmd shift Y` to open and close the debug area.
-
-### Generating an interface file
-
-Press `cmd ctrl UpArrow` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
-
-Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 # [Simulator](#simulator)
 
