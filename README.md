@@ -43,6 +43,18 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 Source: [Matt Reagan](http://mattreagandev.com/?article=20170306)
 
+### Automate User Actions
+
+> When developing a view that requires app navigation to reach, use breakpoints to speed up iterations by simulating user actions. For example, on a login screen, set a breakpoint on `viewDidLoad`, or `view/Will/Did/Appear`, then edit the breakpoint to add a Debugger Command action to invoke the success method, and set it to automatically continue after evaluating actions. This essentially bypasses login, but only when running the app through Xcode, and only when that breakpoint is enabled.
+>
+> You can also pre-populate text fields, make text fields first responders, and change mutable variables at runtime. Once set, enable or disable these breakpoints to simulate different user interaction flows.
+>
+> Using breakpoints this way instead of adding temporary debug or development code eliminates the possibility of shipping that code.
+
+Example debugger commands: `expr loginSuccess()`, `expr nameTextField?.text = "Erwin Maza"`, `expr acceptTermsControl?.isSelected = true`, `expr print("I am groot")`
+
+Source: [Erwin Mazariegos](https://github.com/erwinmaza)
+
 # [Build Times](#build-times)
 
 ### Fix slow codesigning
