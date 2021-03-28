@@ -43,6 +43,18 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 Source: [Matt Reagan](http://mattreagandev.com/?article=20170306)
 
+### Automate user actions with LLDB expressions
+
+When developing a view that requires app navigation to reach, you can use breakpoints to speed up iterations by simulating user actions, instead of modifying or hacking code that you might forget to remove later. Using breakpoints this way instead of adding temporary debug or development code eliminates the possibility of shipping that code by accident.
+
+For example, on a login screen, you can set a breakpoint on `viewDidLoad()`, or `view{Will|Did}Appear()`, then edit the breakpoint to add a Debugger Command action to invoke other methods in the view controller, like a `loginSuccess()` method. Then, set the breakpoint to automatically continue after evaluating the actions. This essentially bypasses login, but only when running the app through Xcode, and only when that breakpoint is enabled.
+
+Another use case: you can pre-populate text fields, make text fields first responders, and change mutable variables at runtime. Once set, enable or disable these breakpoints to simulate different user interaction flows.
+
+Example debugger commands: `expr loginSuccess()`, `expr nameTextField?.text = "Erwin Maza"`, etc.
+
+Source: [Erwin Mazariegos](https://github.com/erwinmaza)
+
 # [Build Times](#build-times)
 
 ### Fix slow codesigning
