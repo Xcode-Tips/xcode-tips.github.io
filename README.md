@@ -11,6 +11,7 @@ Folks in the Apple developer community are always sharing great Xcode tips &mdas
 - [Code](#code)
 - [Crashes](#crashes)
 - [Debugging](#debugging)
+- [Interface Builder](#interface-builder)
 - [Refactoring](#refactoring)
 - [Search](#search)
 - [Settings](#settings)
