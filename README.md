@@ -33,7 +33,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/01/21/xcode-tip-b
 
 ### Quickly toggling breakpoints
 
-Use `Cmd+\` to toggle a breakpoint on the current line.
+Use `cmd \` to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -113,7 +113,7 @@ Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrin
 
 ### Viewing .crash files
 
-In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-click on any row and choose Show in Finder. This will reveal a .crashpoint file — do a Show Package Contents and then dig in further. You will find .crash files with the full crash logs, which provide a lot more info than what you see in Organizer.
+In Xcode’s Organizer, in the Crashes section, you can right-click or ctrl-click on any row and choose Show in Finder. This will reveal a `.crashpoint` file — do a "Show Package Contents" and then dig in further. You will find `.crash` files with the full crash logs, which provide a lot more info than what you see in Organizer.
 
 Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
 
@@ -146,7 +146,7 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Customizing the file header comment and other text macros
 
-Xcode allows you to customize the file header and other so-called text macros using a plist file. 
+Xcode allows you to customize the file header and other so-called text macros using a plist file.
 
 1. Create a property list file named `IDETemplateMacros.plist`.
 2. For every text macro you want to customize, add a new key to the plist’s dictionary.
@@ -160,8 +160,8 @@ Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 ### Improving the assistant editor
 
 1. Set “Uses Focused Editor” in the Navigation preferences
-1. `cmd-J` to switch between panes or open new ones
-1. `cmd-shift-O` to open files in the currently focused pane
+1. `cmd J` to switch between panes or open new ones
+1. `cmd shift O` to open files in the currently focused pane
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-improving-assistant-editor/)
 
@@ -175,33 +175,33 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-d
 
 ### Jump to a specific line
 
-Open the file you want. Press `Cmd+L`, type a line number and Xcode will jump directly to that line.
+Open the file you want. Press `cmd L`, type a line number and Xcode will jump directly to that line.
 
 ### Reindenting/Formatting code
 
-Press `Ctrl+I` to apply Xcode's indentation and formatting.
+Press `ctrl I` to apply Xcode's indentation and formatting.
 
 ### Adding comments quickly
 
-Use `Cmd+/` to toggle comments for the current line or selection. Use `Option+Cmd+/`, pressed directly before a method to have Xcode generate a documentation comment.
+Use `cmd /` to toggle comments for the current line or selection. Use `cmd option /`, pressed directly before a method to have Xcode generate a documentation comment.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Jump to file in source navigator
 
-Press `Cmd+Shift+J` to quickly jump to the current open file in the navigator to easily see and select related files.
+Press `cmd shift J` to quickly jump to the current open file in the navigator to easily see and select related files.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ### Open the jump bar
 
-Press `Ctrl+6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
+Press `ctrl 6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ### Remapping unhelpful keys
 
-Some great shortcuts (e.g. `Shift+Cmd+O` for Open Quickly) are next to useless shortcuts (`Shift+Cmd+P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `Cmd+P` to resuming SwiftUI's preview.
+Some great shortcuts (e.g. `cmd shift O` for Open Quickly) are next to useless shortcuts (`cmd shift P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `cmd P` to resuming SwiftUI's preview.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -216,6 +216,12 @@ Press `cmd UpArrow` to move to the top of the file. Press `cmd DownArrow` to mov
 ### Show and hide debug area
 
 Press `cmd shift Y` to open and close the debug area.
+
+### Generating an interface file
+
+Press `cmd ctrl UpArrow` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 # [Simulator](#simulator)
 
@@ -235,13 +241,13 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 ### Re-run your last test
 
-Use `Ctrl+Opt+Cmd+G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
+Use `cmd ctrl option G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Randomizing test order
 
-Go to the Product menu, hold down Option, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
+Go to the Product menu, hold down `option`, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -262,12 +268,6 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 ### Expanding autocomplete
 
 You can grab the edge of the autocomplete popup and drag it as wide as you want!
-
-Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
-
-### Generating an interface file
-
-Press `Ctrl+Cmd+Up` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -314,11 +314,11 @@ Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-def
 ### Quickly switching between Xcodes
 
 > Using plain xcode-select is slow because you have to provide the path to the Xcode you want to select each time. I wrote a custom shell command to switch between Xcodes more quickly.
- 
+
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/07/07/quickly-switching-between-xcodes/)
 
 ### Install, manage and switch between different Xcode versions
 
-An easy-to-use command line tool to install and uninstall different Xcode versions on your machine. Xcode versions are installed side-by-side with the version in their name and makes downloading/installing them incredibly easy. 
+An easy-to-use command line tool to install and uninstall different Xcode versions on your machine. Xcode versions are installed side-by-side with the version in their name and makes downloading/installing them incredibly easy.
 
 Source: [xcinfo](https://github.com/xcodereleases/xcinfo)
