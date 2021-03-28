@@ -157,10 +157,10 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-i
 
 The assistant editor is very useful for navigating around while remaining at your original position:
 
-- Use `Cmd-Option-,` to open the current location in the neighbouring editor.
-- Hold `Cmd-Ctrl-Option` and click on any method to jump to that method in the neighbouring editor (`Cmd-Ctrl` and click to do so in the current editor)
-- `Cmd-Ctrl-Up` to switch between associated files, and `Cmd-Ctrl-Option-Up` to do so using the neighbouring editor.
-- `Cmd-Ctrl-Left` and `Cmd-Ctrl-Right` to move back and forward through navigation history, and `Cmd-Ctrl-Option-Left` and `Cmd-Ctrl-Option-Right` for their neighbouring editor counterparts.
+- Use `cmd option ,` to open the current location in the neighbouring editor
+- Hold `cmd ctrl option` and click on any method to jump to that method in the neighbouring editor (`cmd ctrl` opens in the current editor)
+- `cmd ctrl UpArrow` to switch between associated files, and `cmd ctrl option UpArrow` to do so using the neighbouring editor
+- `cmd ctrl LeftArrow` and `cmd ctrl RightArrow` to move back and forward through navigation history, add `option` for their neighbouring editor counterparts
 
 ### Using behaviors to improve debugging
 
