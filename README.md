@@ -33,7 +33,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/01/21/xcode-tip-b
 
 ### Quickly toggling breakpoints
 
-Use `⌘\` to toggle a breakpoint on the current line.
+Use **&#8984; \\** to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -79,8 +79,7 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Apply all fix-its
 
-Go to the Editor menu and choose Fix All Issues to apply fix-its all at once. 
-**Keyboard shortcut**: `⌃⌥⌘F`
+Go to the Editor menu and choose Fix All Issues (**&#8963;&#8997;&#8984; F**) to apply fix-its all at once 
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -102,7 +101,7 @@ Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrin
 
 ### Viewing .crash files
 
-In Xcode’s Organizer, in the Crashes section, you can right-click or `⌃`-click on any row and choose Show in Finder. This will reveal a .crashpoint file — do a Show Package Contents and then dig in further. You will find .crash files with the full crash logs, which provide a lot more info than what you see in Organizer.
+In Xcode’s Organizer, in the Crashes section, you can right-click or &#8963;`-click on any row and choose Show in Finder. This will reveal a .crashpoint file — do a Show Package Contents and then dig in further. You will find .crash files with the full crash logs, which provide a lot more info than what you see in Organizer.
 
 Source: [Brent Simmons](https://inessential.com/2021/03/16/the_hottest_of_all_xcode_tips)
 
@@ -149,8 +148,8 @@ Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 ### Improving the assistant editor
 
 1. Set “Uses Focused Editor” in the Navigation preferences
-1. `⌘J` to switch between panes or open new ones
-1. `⌘⇧O` to open files in the currently focused pane
+1. **&#8984;J** to switch between panes or open new ones
+1. **&#8984;&#8679;O** to open files in the currently focused pane
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-improving-assistant-editor/)
 
@@ -164,33 +163,33 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/07/01/xcode-tip-d
 
 ### Jump to a specific line
 
-Open the file you want. Press `⌘L`, type a line number and Xcode will jump directly to that line.
+Open the file you want. Press &#8984;L`, type a line number and Xcode will jump directly to that line.
 
 ### Reindenting/Formatting code
 
-Press `⌃I` to apply Xcode's indentation and formatting.
+Press **&#8963;I** to apply Xcode's indentation and formatting.
 
 ### Adding comments quickly
 
-Use `⌘/` to toggle comments for the current line or selection. Use `⌥⌘/`, pressed directly before a method to have Xcode generate a documentation comment.
+Use **&#8984;/** to toggle comments for the current line or selection. Use **&#8997;&#8984;/**, pressed directly before a method to have Xcode generate a documentation comment.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Jump to file in source navigator
 
-Press `⌘⇧J` to quickly jump to the current open file in the navigator to easily see and select related files.
+Press **&#8984;&#8679;J** to quickly jump to the current open file in the navigator to easily see and select related files.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ### Open the jump bar
 
-Press `⌃6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
+Press **&#8963;6** to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ###  Remapping unhelpful keys
 
-Some great shortcuts (e.g. `⇧⌘O` for Open Quickly) are next to useless shortcuts (`⇧⌘P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `⌘P` to resuming SwiftUI's preview.
+Some great shortcuts (e.g. **&#8679;&#8984;O** for Open Quickly) are next to useless shortcuts (**&#8679;&#8984;P**, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like **&#8984;P** to resuming SwiftUI's preview.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -212,7 +211,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 ### Re-run your last test
 
-Use `⌃⌥⌘G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
+Use **&#8963;&#8997;&#8984;G** to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -244,7 +243,7 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Generating an interface file
 
-Press `⌃⌘↑` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
+Press **&#8963;&#8984;&#8679;** to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
