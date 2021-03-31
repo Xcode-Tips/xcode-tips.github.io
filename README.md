@@ -175,6 +175,10 @@ Press `cmd ctrl UpArrow` to display a generated interface, showing properties, f
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+### Open Human Interface Guidelines
+
+Press `cmd shift H` to open the Human Interface Guidelines in your web browser.
+
 # [Refactoring](#refactoring)
 
 ### Faster Xcode Rename Refactoring
