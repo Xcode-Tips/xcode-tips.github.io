@@ -1,3 +1,5 @@
+*A community-run website for documenting Xcode Tips*
+
 **Have a cool tip to share?** Send [a pull request](https://github.com/Xcode-Tips/xcode-tips.github.io/pulls) or [open an issue](https://github.com/Xcode-Tips/xcode-tips.github.io/issues)!
 
 # About
