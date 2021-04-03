@@ -6,6 +6,19 @@
 
 Folks in the Apple developer community are always sharing great Xcode tips &mdash; usually via Twitter or blog posts. Wouldn't it be nice if we collected them all in a single place to share? The goal of this project is to host all of these Xcode tips in a single place, and make it [easy for anyone to contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/.github/CONTRIBUTING.md).
 
+#### Quick reference for Apple glyphs HTML codes
+
+| Symbol name | Glyph | HTML code |
+| --------| :---: | :---: |
+| Command | &#8984; | \&#8984; |
+| Option | &#8997; | \&#8997; |
+| Control | &#8963; | \&#8963; |
+| Shift | &#8679; | \&#8679; |
+| Arrow up | &#8593; | \&#8593; |
+| Arrow down | &#8595; | \&#8595; |
+| Arrow left | &#8592; | \&#8592; |
+| Arrow right | &#8594; | \&#8594; |
+
 # Contents
 
 - [Breakpoints](#breakpoints)
@@ -36,7 +49,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/01/21/xcode-tip-b
 
 ### Quickly toggling breakpoints
 
-Use `cmd \` to toggle a breakpoint on the current line.
+Use **&#8984; \\** to toggle a breakpoint on the current line.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -129,57 +142,57 @@ Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrin
 
 ### Jump to a specific line
 
-Open the file you want. Press `cmd L`, type a line number and Xcode will jump directly to that line.
+Open the file you want. Press **&#8984;L**, type a line number and Xcode will jump directly to that line.
 
 ### Reindenting/Formatting code
 
-Press `ctrl I` to apply Xcode's indentation and formatting.
+Press **&#8963;I** to apply Xcode's indentation and formatting.
 
 ### Adding comments quickly
 
-Use `cmd /` to toggle comments for the current line or selection. Use `cmd option /`, pressed directly before a method to have Xcode generate a documentation comment.
+Use **&#8984;/** to toggle comments for the current line or selection. Use **&#8997;&#8984;/**, pressed directly before a method to have Xcode generate a documentation comment.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Jump to file in source navigator
 
-Press `cmd shift J` to quickly jump to the current open file in the navigator to easily see and select related files.
+Press **&#8984;&#8679;J** to quickly jump to the current open file in the navigator to easily see and select related files.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ### Open the jump bar
 
-Press `ctrl 6` to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
+Press **&#8963;6** to open the symbol jump bar in Xcode. Now start typing. Try it, jumping to a function in the current file, never has been so easy.
 
 Source: [Jeroen Leenarts](https://leenarts.net/2020/02/18/frequently-used-keyboard-shortcuts-i-use-inwith-xcode/)
 
 ### Remapping unhelpful keys
 
-Some great shortcuts (e.g. `cmd shift O` for Open Quickly) are next to useless shortcuts (`cmd shift P`, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like `cmd P` to resuming SwiftUI's preview.
+Some great shortcuts (e.g. **&#8679;&#8984;O** for Open Quickly) are next to useless shortcuts (**&#8679;&#8984;P**, for the never times you want to print code.) It takes only seconds to remove unhelpful keys, and you can even remap things like **&#8984;P** to resuming SwiftUI's preview.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Increase or decrease editor font size
 
-Press `cmd +` to increase and `cmd -` to decrease.
+Press **&#8984;+** to increase and **&#8984;-** to decrease.
 
 ### Move cursor to the top or bottom of the file
 
-Press `cmd UpArrow` to move to the top of the file. Press `cmd DownArrow` to move to the bottom of the file.
+Press **&#8984;&#8593;** to move to the top of the file. Press **&#8984;&#8595;** to move to the bottom of the file.
 
 ### Show and hide debug area
 
-Press `cmd shift Y` to open and close the debug area.
+Press **&#8984;&#8679;Y** to open and close the debug area.
 
 ### Generating an interface file
 
-Press `cmd ctrl UpArrow` to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
+Press **&#8963;&#8984;&#8679;** to display a generated interface, showing properties, function signatures, and comments for a type. Press it again, to jump to tests for that file if they exist.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Open Human Interface Guidelines
 
-Press `cmd shift H` to open the Human Interface Guidelines in your web browser.
+Press **&#8984;&#8679;H** to open the Human Interface Guidelines in your web browser.
 
 # [Refactoring](#refactoring)
 
@@ -219,8 +232,8 @@ Source: [Ole Begemann](https://oleb.net/blog/2017/07/xcode-9-text-macros/)
 ### Improving the assistant editor
 
 1. Set “Uses Focused Editor” in the Navigation preferences
-1. `cmd J` to switch between panes or open new ones
-1. `cmd shift O` to open files in the currently focused pane
+1. **&#8984;J** to switch between panes or open new ones
+1. **&#8984;&#8679;O** to open files in the currently focused pane
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-improving-assistant-editor/)
 
@@ -228,10 +241,10 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2018/06/12/xcode-tip-i
 
 The assistant editor is very useful for navigating around while remaining at your original position:
 
-- Use `cmd option ,` to open the current location in the neighbouring editor
-- Hold `cmd ctrl option` and click on any method to jump to that method in the neighbouring editor (`cmd ctrl` opens in the current editor)
-- `cmd ctrl UpArrow` to switch between associated files, and `cmd ctrl option UpArrow` to do so using the neighbouring editor
-- `cmd ctrl LeftArrow` and `cmd ctrl RightArrow` to move back and forward through navigation history, add `option` for their neighbouring editor counterparts
+- Use **&#8984;&#8997;,** to open the current location in the neighbouring editor
+- Hold **&#8984;&#8963;&#8997;** and click on any method to jump to that method in the neighbouring editor (**&#8984;&#8963;** opens in the current editor)
+- **&#8984;&#8963;&#8593;** to switch between associated files, and **&#8984;&#8963;&#8997;&#8593;** to do so using the neighbouring editor
+- **&#8984;&#8963;&#8592;** and **&#8984;&#8963;&#8594;** to move back and forward through navigation history, add **&#8997;** for their neighbouring editor counterparts
 
 ### Using behaviors to improve debugging
 
@@ -257,13 +270,13 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 ### Re-run your last test
 
-Use `cmd ctrl option G` to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
+Use **&#8963;&#8997;&#8984;G** to re-run your last test. [Jon Reid](https://twitter.com/qcoding) has a name for this making it easier to remember: “smash go!”
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
 ### Randomizing test order
 
-Go to the Product menu, hold down `option`, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
+Go to the Product menu, hold down **&#8997;**, then click Test. Inside the Info tab, click Options then check Randomize Execution Order to run tests in a different order every time.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
@@ -275,7 +288,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2021/03/17/xcode-ui-te
 
 ### Testing in-app purchases
 
-Make a new StoreKit Config File, and add your IAP. Now go to the Product menu, hold down Option, and click Run. From the Options tab of the window, change StoreKit Config, and now you'll use the test IAP.
+Make a new StoreKit Config File, and add your IAP. Now go to the Product menu, hold down **&#8997;**, and click Run. From the Options tab of the window, change StoreKit Config, and now you'll use the test IAP.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
