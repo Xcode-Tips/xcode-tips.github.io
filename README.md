@@ -6,19 +6,6 @@
 
 Folks in the Apple developer community are always sharing great Xcode tips &mdash; usually via Twitter or blog posts. Wouldn't it be nice if we collected them all in a single place to share? The goal of this project is to host all of these Xcode tips in a single place, and make it [easy for anyone to contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/.github/CONTRIBUTING.md).
 
-#### Quick reference for Apple glyphs HTML codes
-
-| Symbol name | Glyph | HTML code |
-| --------| :---: | :---: |
-| Command | &#8984; | \&#8984; |
-| Option | &#8997; | \&#8997; |
-| Control | &#8963; | \&#8963; |
-| Shift | &#8679; | \&#8679; |
-| Arrow up | &#8593; | \&#8593; |
-| Arrow down | &#8595; | \&#8595; |
-| Arrow left | &#8592; | \&#8592; |
-| Arrow right | &#8594; | \&#8594; |
-
 # Contents
 
 - [Breakpoints](#breakpoints)
