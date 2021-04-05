@@ -235,7 +235,7 @@ The assistant editor is very useful for navigating around while remaining at you
 
 ### Spelling and Grammar
 
-> You can turn on spell checking in Xcode. Edit -> Format -> Spelling and Grammar. This works on comments and identifiers, and is aware of capitalization conventions.
+> You can turn on spell checking in Xcode. Go to `Edit > Format > Spelling and Grammar`. This works on comments and identifiers, and is aware of capitalization conventions.
 
 Source: [Micheal Gorbach](https://twitter.com/mgorbach/status/1314662158819627010)
 
