@@ -233,6 +233,12 @@ The assistant editor is very useful for navigating around while remaining at you
 - **&#8984;&#8963;&#8593;** to switch between associated files, and **&#8984;&#8963;&#8997;&#8593;** to do so using the neighbouring editor
 - **&#8984;&#8963;&#8592;** and **&#8984;&#8963;&#8594;** to move back and forward through navigation history, add **&#8997;** for their neighbouring editor counterparts
 
+### Spelling and Grammar
+
+> You can turn on spell checking in Xcode. Edit -> Format -> Spelling and Grammar. This works on comments and identifiers, and is aware of capitalization conventions.
+
+Source: [Micheal Gorbach](https://twitter.com/mgorbach/status/1314662158819627010)
+
 ### Using behaviors to improve debugging
 
 > In Xcode’s preferences, go to the Behaviors tab. Navigate to the ‘Running’ section and click ‘Pauses’. Here you can instruct Xcode to open a new tab by checking the box for ‘Show tab named’ and giving it a name. By default, showing the ‘Debug Navigator’ should be enabled. Next, I like to show the debugger with the ‘Variables & Console View’, as well as hide the Utilities sidebar on the right.
