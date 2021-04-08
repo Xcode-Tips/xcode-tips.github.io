@@ -175,6 +175,16 @@ Press `cmd ctrl UpArrow` to display a generated interface, showing properties, f
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+### Trigger Custom Behaviors
+
+When working in the Interface Builder, you may prefer to have the attributes inspector open and the project navigator closed. But when working on a code file, you might prefer the navigation panels open and the inspectors closed. If you regularly switch between them, you can lose a lot of time using your mouse to make those adjustments, and using normal keyboard shortcuts is tiresome when you have to invoke several for each switch (and some, like showing/hiding the SwiftUI Preview Canvas, have no keyboard shorcut and you can't assign one). Prior to Xcode 12 the state of these panels were independent on each tab. Now, you have to use separate windows if you do not want to open and close the panels constantly.
+
+Xcode Behaviors seems like a good solution to this isssue, as it can set the state of a number of Xcode interface elements when certain events are triggered, like when a build starts or you do a search. Alas, there are no triggers for when you focus on a specific type of file. But you can create custom triggers and assign keyboard shortcuts to them.
+
+On the `Behaviors` tab of Xcode `Preferences`, scroll to the bottom of the list on the left. Click the `+` to add a Custom trigger and give it a name. Some good names are `IB File`, `Code File`, and `SwiftUI File`. On the right, set the state of the `Navigator`, `Inspectors`, `Assistant`, `Preview` or any other panes to your liking. Assign a keyboard shortcut next to each name, and now you can quickly set your views to optimately focus on a particular type of work.
+
+Source: [Erwin Mazariegos](https://github.com/erwinmaza)
+
 # [Refactoring](#refactoring)
 
 ### Faster Xcode Rename Refactoring
