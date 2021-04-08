@@ -183,7 +183,7 @@ When working in the Interface Builder, you may prefer to have the attributes ins
 
 Xcode Behaviors seems like a good solution to this isssue, as it can set the state of a number of Xcode interface elements when certain events are triggered, like when a build starts or you do a search. Alas, there are no triggers for when you focus on a specific type of file. But you can create custom triggers and assign keyboard shortcuts to them.
 
-On the `Behaviors` tab of Xcode `Preferences`, scroll to the bottom of the list on the left. Click the `+` to add a Custom trigger and give it a name. Some good names are `IB File`, `Code File`, and `SwiftUI File`. On the right, set the state of the `Navigator`, `Inspectors`, `Assistant`, `Preview` or any other panes to your liking. Assign a keyboard shortcut next to each name, and now you can quickly set your views to optimately focus on a particular type of work.
+On the `Behaviors` tab of Xcode `Preferences`, scroll to the bottom of the list on the left. Click the `+` to add a Custom trigger and give it a name. Some good names are `IB File`, `Code File`, and `SwiftUI File`. On the right, set the state of the `Navigator`, `Inspectors`, `Assistant`, `Preview` or any other panes to your liking. Assign a keyboard shortcut next to each name, and now you can quickly set your views to optimally focus on a particular type of work.
 
 Source: [Erwin Mazariegos](https://github.com/erwinmaza)
 
