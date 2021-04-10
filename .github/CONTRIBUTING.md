@@ -8,6 +8,7 @@ Pull requests are welcome! We only ask that you follow these steps:
     1. Give it a brief but descriptive heading.
     1. Provide a concise explanation.
         1. Keyboard shortcuts should be **bold** and use glyph symbols like &#8984; and &#8679; rather than symbol names like `cmd` and `shift`, etc. See the table below and follow existing examples.
+        1. Try to be as brief as possible, avoiding overly verbose descriptions.
     1. Link to the original source:
         1. A blog post, a tweet, etc. to give credit to the person who shared it.
         1. If there isn't a post or a tweet, and it is just a tip you want to share, credit yourself! 😄
