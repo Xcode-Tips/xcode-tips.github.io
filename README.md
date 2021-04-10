@@ -177,11 +177,17 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Trigger Custom Behaviors
 
-When working in the Interface Builder, you may prefer to have the attributes inspector open and the project navigator closed. But when working on a code file, you might prefer the navigation panels open and the inspectors closed. If you regularly switch between them, you can lose a lot of time using your mouse to make those adjustments, and using normal keyboard shortcuts is tiresome when you have to invoke several for each switch (and some, like showing/hiding the SwiftUI Preview Canvas, have no keyboard shorcut and you can't assign one). Prior to Xcode 12 the state of these panels were independent on each tab. Now, you have to use separate windows if you do not want to open and close the panels constantly.
+If you find yourself wasting time continually opening and closing the `Navigator Pane`, the `Inspectors Pane`, or the `Preview Canvas` when you switch the type of file you're working on, you can define custom `Behavoirs` and assign keyboard shortcuts to them.
 
-Xcode Behaviors seems like a good solution to this isssue, as it can set the state of a number of Xcode interface elements when certain events are triggered, like when a build starts or you do a search. Alas, there are no triggers for when you focus on a specific type of file. But you can create custom triggers and assign keyboard shortcuts to them.
+Xcode Behaviors set the state of the Xcode interface when, for example, a build starts or you do a search. Custom Behaviors allow you to define your own triggers.
 
-On the `Behaviors` tab of Xcode `Preferences`, scroll to the bottom of the list on the left. Click the `+` to add a Custom trigger and give it a name. Some good names are `IB File`, `Code File`, and `SwiftUI File`. On the right, set the state of the `Navigator`, `Inspectors`, `Assistant`, `Preview` or any other panes to your liking. Assign a keyboard shortcut next to each name, and now you can quickly set your views to optimally focus on a particular type of work.
+* Go to `Xcode -> Preferences`
+* Open the `Behaviors` tab
+* Click `+` at the bottom of the list and name the new Behavior (`IB File`, `Code File`, `SwiftUI File`, etc)
+* On the right side, set the state of the `Navigator`, `Inspectors`, `Preview` or other elements.
+* Assign a keyboard shortcut next to each name
+
+Now you can quickly set your panels to focus on the type of work you're doing.
 
 Source: [Erwin Mazariegos](https://github.com/erwinmaza)
 
