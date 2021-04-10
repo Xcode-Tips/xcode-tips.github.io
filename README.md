@@ -179,17 +179,17 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 
 ### Trigger Custom Behaviors
 
-If you find yourself wasting time continually opening and closing the `Navigator Pane`, the `Inspectors Pane`, or the `Preview Canvas` when you switch the type of file you're working on, you can define custom `Behavoirs` and assign keyboard shortcuts to them.
+If you find yourself wasting time continually opening and closing the `Navigator`, `Inspectors`, or the `Preview` when you switch the type of file you're working on, you can define custom `Behaviors` and assign keyboard shortcuts to them.
 
-Xcode Behaviors set the state of the Xcode interface when, for example, a build starts or you do a search. Custom Behaviors allow you to define your own triggers.
+Xcode Behaviors set the state of the Xcode interface when events occur such as a build starting. Custom Behaviors allow you to define your own triggers.
 
 * Go to `Xcode -> Preferences`
 * Open the `Behaviors` tab
-* Click `+` at the bottom of the list and name the new Behavior (`IB File`, `Code File`, `SwiftUI File`, etc)
-* On the right side, set the state of the `Navigator`, `Inspectors`, `Preview` or other elements.
+* Click `+` at the bottom of the list and name the new Behavior (E.g. `IB File`, `Code File`, `SwiftUI File`)
+* On the right side, set the state of the `Navigator`, `Inspectors`, `Preview` or other elements
 * Assign a keyboard shortcut next to each name
 
-Now you can quickly set your panels to focus on the type of work you're doing.
+Now you can quickly set the state of your panels to focus on the type of work you're doing.
 
 Source: [Erwin Mazariegos](https://github.com/erwinmaza)
 
