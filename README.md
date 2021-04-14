@@ -347,6 +347,21 @@ defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 
 Source: [Txai Wieser](https://txaiwieser.github.io/articles/2021-03-08-xcode-defaults)
 
+### Enable Internal Debug Menu
+
+Xcode has a secret internal debug menu. To enable it:
+
+```bash
+defaults write com.apple.dt.Xcode ShowDVTDebugMenu -bool YES
+sudo touch /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode/AppleInternal.plist
+```
+
+You can also [enable a similar menu for the iOS simulator](https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b).
+
+⚠️ **Use with caution.** ⚠️
+
+Source: [Khoa, @onmyway133](https://twitter.com/onmyway133/status/1380084248829251586)
+
 # [Xcode Versions](#xcode-versions)
 
 ### Quickly switching between Xcodes
