@@ -356,6 +356,8 @@ defaults write com.apple.dt.Xcode ShowDVTDebugMenu -bool YES
 sudo touch /Applications/Xcode.app/Contents/Developer/AppleInternal/Library/Xcode/AppleInternal.plist
 ```
 
+You can also [enable a similar menu for the iOS simulator](https://medium.com/flawless-app-stories/simulator-on-steroids-c12774ca6b).
+
 Source: [Khoa, @onmyway133](https://twitter.com/onmyway133/status/1380084248829251586)
 
 # [Xcode Versions](#xcode-versions)
