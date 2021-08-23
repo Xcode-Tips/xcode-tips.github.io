@@ -141,6 +141,12 @@ Source: [Krzysztof Zabłocki](https://twitter.com/merowing_/status/1392389928844
 
 # [Keyboard Shortcuts](#keyboard-shortcuts)
 
+### Cheatsheet
+
+A handy list of Xcode keyboard shortcuts.
+
+Source: [Keith Harrison](https://useyourloaf.com/blog/xcode-keyboard-shortcuts/)
+
 ### Jump to a specific line
 
 Open the file you want. Press **&#8984;L**, type a line number and Xcode will jump directly to that line.
