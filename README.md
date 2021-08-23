@@ -215,8 +215,8 @@ Press **&#8984;&#8679;H** to open the Human Interface Guidelines in your web bro
 
 It takes up a lot of space, you can quickly toggle it.
 
-> **&#8984;** + **&#8963;** + **&#8629;**
-> Editor menu > Canvas
+> **&#8984; &#8963; &#8629;**
+> `Editor menu > Canvas`
 
 Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-swiftui/)
 
@@ -224,8 +224,8 @@ Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-
 
 If you type too fast Xcode can stop updating the preview, so you may have to trigger a refresh.
 
-> **&#8984;** + **&#8997;** + **p**
-> Editor menu > Canvas > Refresh Canvas
+> **&#8984; &#8997; P**
+> `Editor menu > Canvas > Refresh Canvas`
 
 This will refresh your preview and start automatically updating again.
 
@@ -237,13 +237,13 @@ You can use a keyboard shortcut to move a line of code up or down, which can be 
 
 To move line of code up:
 
-> **&#8984;** + **&#8997;** + \[
-> Editor menu > Structure > Move Line Up
+> **&#8984; &#8997; \[**
+> `Editor menu > Structure > Move Line Up`
 
 To move line of code down:
 
-> **&#8984;** + **&#8997;** + \]
-> Editor menu > Structure > Move Line Down
+> **&#8984; &#8997; \]**
+> `Editor menu > Structure > Move Line Down`
 
 Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-swiftui/)
 
