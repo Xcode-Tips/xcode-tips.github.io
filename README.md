@@ -285,7 +285,7 @@ Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/04/13/fully-autom
 
 Since Xcode 12 you can configure the simulator to apply a device mask to screenshots.
 
-> Go into simulator's File, press &#8997;, "Save Screen..." and there tick "Apply device mask to screenshot". Now your sim will save screenshots with a transparent notch and corners!
+> Go into simulator's `File` menu, press **&#8997;**, "Save Screen..." and there tick "Apply device mask to screenshot". Now your sim will save screenshots with a transparent notch and corners!
 
 You can also enable it within Simulator preferences.
 
