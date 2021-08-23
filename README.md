@@ -325,6 +325,12 @@ Make a new StoreKit Config File, and add your IAP. Now go to the Product menu, h
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xcode-tips)
 
+### UI testing cheat sheet
+
+Here are some quick code snippets that help you solve a variety of common problems using Xcode’s UI testing system.
+
+Source: [Paul Hudson](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
+
 # [Usability](#usability)
 
 ### Expanding autocomplete
