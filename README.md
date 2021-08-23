@@ -211,6 +211,42 @@ Source: [Erwin Mazariegos](https://github.com/erwinmaza)
 
 Press **&#8984;&#8679;H** to open the Human Interface Guidelines in your web browser.
 
+### Show/hide the preview canvas
+
+It takes up a lot of space, you can quickly toggle it.
+
+> **&#8984;** + **&#8963;** + **&#8629;**
+> Editor menu > Canvas
+
+Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-swiftui/)
+
+### Refresh Preview Canvas
+
+If you type too fast Xcode can stop updating the preview, so you may have to trigger a refresh.
+
+> **&#8984;** + **&#8997;** + **p**
+> Editor menu > Canvas > Refresh Canvas
+
+This will refresh your preview and start automatically updating again.
+
+Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-swiftui/)
+
+### Move line of code up or down
+
+You can use a keyboard shortcut to move a line of code up or down, which can be useful for re-ordering things. This can be the current line or you can select multiple lines to move together.
+
+To move line of code up:
+
+> **&#8984;** + **&#8997;** + \[
+> Editor menu > Structure > Move Line Up
+
+To move line of code down:
+
+> **&#8984;** + **&#8997;** + \]
+> Editor menu > Structure > Move Line Down
+
+Source: [Sarun Wongpatcharapakorn](https://sarunw.com/posts/xcode-shortcuts-for-swiftui/)
+
 # [Refactoring](#refactoring)
 
 ### Faster Xcode Rename Refactoring
