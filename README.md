@@ -319,7 +319,7 @@ Source: [Michał Januszewski](https://twitter.com/mjanuszewski/status/1374434141
 
 To collapse all issues in the Xcode Issue navigator.
 
-> cmd ⌘-click one of the little disclosure triangles to collapse (or expand) all rows
+> **&#8984; click** one of the little disclosure triangles to collapse (or expand) all rows
 
 Source: [Balazs Faludi](https://stackoverflow.com/a/20504397)
 
