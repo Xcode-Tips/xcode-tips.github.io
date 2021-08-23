@@ -384,11 +384,11 @@ Source: [Khoa, @onmyway133](https://twitter.com/onmyway133/status/13800842488292
 
 Source: [Jesse Squires](https://www.jessesquires.com/blog/2020/07/07/quickly-switching-between-xcodes/)
 
-### Switching Xcodee versions without entering password
+### Switch Xcode versions without entering password
 
-When using `xcode-select` it can be problematic entering the password in situations like on remote CI. We can configure sudo using 'sudoers' so that the password will no longer be required using this command:
+> When using `xcode-select` it can be problematic entering the password in situations like on remote CI. We can configure sudo using `sudoers` so that the password will no longer be required using this command:
 
-```
+```bash
 echo "%admin ALL=NOPASSWD: /usr/bin/xcode-select,/usr/bin/xcodebuild -runFirstLaunch" | sudo tee /etc/sudoers.d/xcode
 ```
 
