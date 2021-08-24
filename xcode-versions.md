@@ -1,4 +1,4 @@
-[Return to root](README.md)
+⬅️ [Go Back](README.md)
 
 # Xcode Versions
 
