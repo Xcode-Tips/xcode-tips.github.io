@@ -1,5 +1,7 @@
 ⬅️ [Go Back](README.md)
 
+✏️ [Contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/refactoring.md)
+
 # Refactoring
 
 ### Faster Xcode Rename Refactoring

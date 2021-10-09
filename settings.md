@@ -1,5 +1,7 @@
 ⬅️ [Go Back](README.md)
 
+✏️ [Contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/settings.md)
+
 # Settings
 
 ### Customizing the file header comment and other text macros

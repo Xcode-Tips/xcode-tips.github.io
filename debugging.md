@@ -1,5 +1,7 @@
 ⬅️ [Go Back](README.md)
 
+✏️ [Contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/debugging.md)
+
 # Debugging
 
 ### `NSDoubleLocalizedStrings` and Friends
@@ -16,7 +18,7 @@ Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrin
 
 ### Use frame variable in LLDB
 
-> Did you know that most of the time you want to use `v` instead of `po` or `p` in lldb? 
+> Did you know that most of the time you want to use `v` instead of `po` or `p` in lldb?
 >
 > This is something that the majority of Swift developers don't realise but `v` is an alias for `frame variable` that was added back in Xcode 10.2, it's a faster and more reliable way to get your info.
 

@@ -1,5 +1,7 @@
 ⬅️ [Go Back](README.md)
 
+✏️ [Contribute](https://github.com/Xcode-Tips/xcode-tips.github.io/blob/main/crashes.md)
+
 # Crashes
 
 ### Viewing .crash files
