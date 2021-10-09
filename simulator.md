@@ -25,3 +25,9 @@ Since Xcode 12 you can configure the simulator to apply a device mask to screens
 You can also enable it within Simulator preferences.
 
 Source: [Roman Shevtsov and Jean-Étienne](https://twitter.com/ryushev/status/1386626956351901704)
+
+### Save Simulator recordings as GIFs
+
+> You can go to Xcode Simulator `File > Record Screen` to record the simulator, and turn it into a GIF (if you want to) by right clicking on the clip, and `Save as Animated GIF`.
+
+Source: [Ting Becker](https://twitter.com/teekachu1/status/1431314346311815175?s=21)
