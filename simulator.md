@@ -31,3 +31,23 @@ Source: [Roman Shevtsov and Jean-Étienne](https://twitter.com/ryushev/status/13
 > You can go to Xcode Simulator `File > Record Screen` to record the simulator, and turn it into a GIF (if you want to) by right clicking on the clip, and `Save as Animated GIF`.
 
 Source: [Ting Becker](https://twitter.com/teekachu1/status/1431314346311815175?s=21)
+
+### iOS 15 Simulator's Spotlight process consistently uses ~100% of CPU
+
+> To fix the SwiftUI Preview simulators:
+
+```bash
+cd ~/Library/Developer/Xcode/UserData/Previews/Simulator\ Devices/
+
+find . -name com.apple.suggestions.plist -exec plutil -replace SuggestionsAppLibraryEnabled -bool NO {} ";"
+```
+
+> To fix regular Simulator instances:
+
+```bash
+cd ~/Library/Developer/CoreSimulator/Devices 
+
+find . -name com.apple.suggestions.plist -exec plutil -replace SuggestionsAppLibraryEnabled -bool NO {} ";"
+```
+
+Source: [@pi80223 - Apple Dev Forums](https://developer.apple.com/forums/thread/683277?answerId=682047022#682047022)
