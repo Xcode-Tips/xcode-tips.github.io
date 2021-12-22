@@ -13,6 +13,7 @@ Folks in the Apple developer community are always sharing great Xcode tips &mdas
 - [Breakpoints](breakpoints.md)
 - [Build Times](build-times.md)
 - [Code](code.md)
+- [Compiler Flags](compiler-flags.md)
 - [Crashes](crashes.md)
 - [Debugging](debugging.md)
 - [Interface Builder](interface-builder.md)

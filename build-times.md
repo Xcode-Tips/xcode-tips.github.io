@@ -4,12 +4,6 @@
 
 # Build times
 
-### Measuring build times for type checking
-
-You can use the Swift compiler flags `-warn-long-function-bodies` and `-warn-long-expression-type-checking` to emit warnings for functions or expressions that take longer than a set time to type check. Surfacing these within your projects can help improve and manage type checking times which contribute to overall build times.
-
-Source: [Jesse Squires](https://www.jessesquires.com/blog/2017/09/18/measuring-compile-times-xcode9/)
-
 ### Fix slow codesigning
 
 > Poking around, I came across this [thread](https://developer.apple.com/forums/thread/66418). While I didn’t have the main problem described there of duplicate certificates, buried in that thread was the following advice: trim `~/Library/Preferences/com.apple.security.plist`
