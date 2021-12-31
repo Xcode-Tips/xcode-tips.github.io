@@ -33,3 +33,17 @@ Another use case: you can pre-populate text fields, make text fields first respo
 Example debugger commands: `expr loginSuccess()`, `expr nameTextField?.text = "Erwin Maza"`, etc.
 
 Source: [Erwin Mazariegos](https://github.com/erwinmaza)
+
+### Disabling Exception Breakpoint When Running Unit Tests
+
+> The problem is that I usually have Xcode’s built-in “All Exceptions” breakpoint enabled when debugging my application, but when I run unit tests in Xcode, I have certain unit tests that will throw exceptions and trigger the breakpoint, halting the test until I tell it to continue.
+>
+```swift
+func BWIsUnitTesting() -> Bool {
+  return NSProcessInfo.processInfo().environment["XCTestConfigurationFilePath"] != nil
+}
+```
+> Then, open up the breakpoints navigator in Xcode, right-click on the exceptions breakpoint, and add !BWIsUnitTesting() to the “Condition” field...
+
+Source: [Brian Webster](https://brian-webster.tumblr.com/post/632528822118629376/disabling-exception-breakpoint-when-running-unit), [Michael Tsai
+](https://mjtsai.com/blog/2021/12/29/disabling-exception-breakpoint-when-running-unit-tests/)
