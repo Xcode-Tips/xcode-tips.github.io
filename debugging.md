@@ -23,3 +23,13 @@ Source: [Michael Tsai](https://mjtsai.com/blog/2018/03/27/nsdoublelocalizedstrin
 > This is something that the majority of Swift developers don't realise but `v` is an alias for `frame variable` that was added back in Xcode 10.2, it's a faster and more reliable way to get your info.
 
 Source: [Krzysztof Zabłocki](https://twitter.com/merowing_/status/1392389928844156928)
+
+### Forcing an app out of memory on iOS
+
+> I’ve recently been working on a background uploading feature for an app. One of the key aspects to get right with a feature like that is to correctly handle scenarios where your app is suspended by the system due to RAM constraints or other, similar, reasons. Testing this is easily done by clearing the RAM memory on your device. Unfortunately, this isn’t straightforward. But it’s also not impossible.
+>
+> [...]
+>
+> To force-clear your iOS device’s RAM memory, [go through the following steps...](https://www.donnywals.com/forcing-an-app-out-of-memory-on-ios/)
+
+Source: [Donny Wals](https://www.donnywals.com/forcing-an-app-out-of-memory-on-ios/)
