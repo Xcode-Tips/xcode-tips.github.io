@@ -4,6 +4,16 @@
 
 # Settings
 
+### Display Build Times in Xcode
+
+This replaces the time the "build finished" with how long the build took.
+
+```bash
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+```
+
+Source: [Paul Hudson](https://twitter.com/twostraws/status/1501973333998555148), [Dave Verwer](https://iosdevweekly.com/issues/549?#tools)
+
 ### Customizing the file header comment and other text macros
 
 Xcode allows you to customize the file header and other so-called text macros using a plist file.
