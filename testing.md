@@ -33,3 +33,9 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/229/24-quick-xco
 Here are some quick code snippets that help you solve a variety of common problems using Xcode’s UI testing system.
 
 Source: [Paul Hudson](https://www.hackingwithswift.com/articles/148/xcode-ui-testing-cheat-sheet)
+
+### How to Speed Up SwiftUI Development and Testing Using PreviewSnapshots
+
+A quick guide on PreviewSnapshots, an open-source preview snapshot tool that can share configurations between Xcode previews and snapshot tests
+
+Source: DoorDash Engineering(https://doordash.engineering/2023/01/18/how-to-speed-up-swiftui-development-and-testing-using-previewsnapshots/)
