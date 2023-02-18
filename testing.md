@@ -36,6 +36,6 @@ Source: [Paul Hudson](https://www.hackingwithswift.com/articles/148/xcode-ui-tes
 
 ### How to Speed Up SwiftUI Development and Testing Using PreviewSnapshots
 
-A quick guide on PreviewSnapshots, an open-source preview snapshot tool that can share configurations between Xcode previews and snapshot tests
+A quick guide on PreviewSnapshots, an open-source preview snapshot tool that can share configurations between Xcode previews and snapshot tests.
 
-Source: DoorDash Engineering(https://doordash.engineering/2023/01/18/how-to-speed-up-swiftui-development-and-testing-using-previewsnapshots/)
+Source: [DoorDash Engineering](https://doordash.engineering/2023/01/18/how-to-speed-up-swiftui-development-and-testing-using-previewsnapshots/)
